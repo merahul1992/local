@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+    <remote name="vendor"
+            fetch="https://github.com"
+            revision="14.0"/>
+	
+    <remote name="device"
+            fetch="https://github.com"
+            revision="14.0"/>
+
+    <remote name="kernel"
+            fetch="https://github.com"
+            revision="14.0"/>
+
+    <remote name="hardware"
+            fetch="https://github.com"
+            revision="14.0"/>
+
+    <!--Device Trees-->
+    <project path="device/nothing/Spacewar" name="crdroidandroid/android_device_nothing_Spacewar" remote="device" />
+
+
+    <!--Kernel-->
+    <project path="kernel/nothing/Spacewar" name="crdroidandroid/android_kernel_nothing_sm7325" remote="kernel" />
+
+
+
+    <!-- Vendor folders -->
+    <project path="vendor/nothing/Spacewar" name="crdroidandroid/proprietary_vendor_nothing_Spacewar" remote="vendor" />
+
+
+
+    <!-- Vendor folders -->
+    <project path="hardware/nothing" name="crdroidandroid/android_hardware_nothing" remote="hardware" />
+
+</manifest>
